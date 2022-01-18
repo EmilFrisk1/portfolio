@@ -20,7 +20,7 @@ export default function Header() {
                     </motion.div>
                 </div>
                 <div className="socials">
-                    <a href="https://github.com/Anemoi4" target="_blank">
+                    <a href="https://github.com/Anemoi4" target="_blank" rel="noreferrer">
                         <img  src="/images/GitHub-Logo.png" alt="Github Logo" className='social-logo'/>
                     </a>
                 </div>
