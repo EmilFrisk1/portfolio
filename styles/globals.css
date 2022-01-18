@@ -1,9 +1,24 @@
+:root {
+  --primary-color: rgb(54, 54, 125);
+  --primary-text-color: hsl(0, 0%, 100%);
+  --primary-color-red: 54;
+  --primary-color-green: 54;
+  --primary-color-blue: 125;
+  --body-background-color: linear-gradient(white , hsl(0, 0%, 80%));
+}
+
 html,
-body {
+* {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: white;
+  font-family: rubik;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: var(--body-background-color)
 }
 
 a {
@@ -11,6 +26,275 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+header {
+  margin-top: 0;
+  background-color: var(--primary-color);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.section-header {
+  background: -webkit-linear-gradient(45deg, #333, hsl(0, 0%, 90%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3.5rem;
+  margin-left: 1rem;
+}
+
+.technology-header {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.tehcnology-image {
+  width: 36px;
+}
+
+.title-and-image {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+
+.section-separator {
+  display: block;
+  width: 5vw;
+  height: 1.25vh;
+  border-radius: 200px;
+  background-color: blue;
+  background-image: linear-gradient(45deg, var(--primary-color), hsl(0, 0%, 90%));
+  margin: .75rem 0 .75rem 1rem;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.main-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.main-header .brand-name-and-logo {
+  display: flex;
+  align-items: center;
+}
+
+.main-header .brand-name-and-logo .brand-logo {
+  margin-left: .75rem;
+}
+
+.main-header .section-links .section-link{
+  color: hsl(0, 0%, 75%);
+  margin-right: 1.25rem;
+  font-size: 1.25rem;
+  transition: color 200ms ease-in;
+}
+
+.main-header .section-links .section-link:hover {
+  color: hsl(0, 0%, 100%);
+}
+
+.main-header .socials .social-logo {
+  border-radius: 50%;
+}
+
+.main-header .socials .social-logo:hover {
+  box-shadow: 0px 0px 1px 1px white;
+}
+
+/* SVG-filters */
+
+.filter-white {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(1%) hue-rotate(92deg) brightness(106%) contrast(101%);
+}
+
+/*             */
+
+.main-footer {
+  background-color: var(--primary-color);
+}
+
+.main-footer .container {
+  display: flex;
+}
+
+.main-footer .contact-phone {
+  margin-right: 2rem;
+}
+
+.main-footer .footer-title {
+  color: hsl(0, 0%, 70%);
+  margin: 1rem 0;
+}
+
+.project-section .project-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+
+
+.project-section .project-row .project-card {
+  width: 300px;
+  background: #333;
+  border-radius: 16px;
+  margin: 0 1rem; 
+  box-shadow: 0px 0px 3px 3px rgba(var(--primary-color-red), var(--primary-color-green), var(--primary-color-blue), .5);
+  padding-bottom: 1.5rem;
+}
+
+.project-section .project-row .project-card .project-title,
+.technologies-section .technologies-list .technologies-row .technology-title {
+  margin: 1rem 0;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.project-section .project-row .project-card .project-title {
+  text-align: center;
+}
+
+.project-section .project-row .project-card .project-image {
+  width: 300px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.project-section .project-row .project-card .project-technologies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-section .project-row .project-card .project-technologies .technologies {
+  margin: .5rem;
+  background: white;
+  border-radius: 16px;
+  color: #333;
+  padding: .25rem 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 4px rgb(255, 255, 255, .2);
+}
+
+.project-section .project-row .project-card .project-description,
+.technologies-section .technologies-list .technology-description,
+.about-section .profile-container .profile-description { 
+  padding:  1rem 1.5rem .5rem 1.5rem;
+  line-height: 1.5;
+  font-size: .95rem;
+  color: hsl(0, 0%, 75%);  
+}
+
+.technologies-section .technologies-list {
+  padding: 1rem;
+  border-radius: 16px;
+  margin: 1rem 0;
+}
+.technologies-section .technologies-list .technologies-description {
+  max-width: 500px;
+  margin-left: 2rem;
+}
+
+.technologies-section .technologies-list .technologies-description,
+.about-section .profile-container .profile-description {
+  color: hsl(0, 0%, 33%);
+}
+
+.technologies-section .technologies-list .technologies-row {
+  display: flex;
+}
+
+.technologies-section .technologies-list .technologies-row .technology {
+  margin: 1.5rem;
+  background-color: #333;
+  border-radius: 16px;
+  box-shadow: 0px 0px 3px 3px rgba(var(--primary-color-red), var(--primary-color-green), var(--primary-color-blue), .5);
+  width: 300px;
+}
+
+.technologies-section .technologies-list .technologies-row .technology-image {
+  margin-left: .25rem;
+  padding: 0 1rem;
+  height: 36px;
+}
+
+.technologies-section .technologies-list .technology-description {
+  padding: 1rem 1rem 2rem 1rem;
+}
+
+.about-section .profile-container {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  width: 500px;
+  height: 200px;
+  border-radius: 5px;
+  margin: 6rem auto 2rem auto;
+  border: 1px solid #333;
+  box-shadow: 0px 0px 2px 2px rgba(var(--primary-color-red), var(--primary-color-green), var(--primary-color-blue), .5);
+}
+
+.about-section .profile-container .profile-pic {
+  height: 300px;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.about-section .profile-container .profile-description {
+  align-self: center;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 750px) {
+  .project-section .project-row {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .project-section .project-row .project-card {
+    margin: 1rem;
+  }
+
+  .technologies-section .technologies-list .technologies-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .main-header .section-links {
+    display: none;
+  }
+
+  .about-section .profile-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 300px;
+  }
+
+  .about-section .profile-container .profile-pic {
+    width: 250px;
+    height: 250px;
+    padding: 1rem;
+    border-radius: 50%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .section-header {
+    font-size: 2.5rem;
+  }
 }
