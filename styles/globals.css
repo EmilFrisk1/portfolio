@@ -165,6 +165,7 @@ header {
 
 .project-section .project-row .project-card .project-image {
   width: 300px;
+  height: 150px;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
 }

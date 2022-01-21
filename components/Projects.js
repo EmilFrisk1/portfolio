@@ -19,6 +19,18 @@ export default function Projects() {
                         <div className="technologies">node</div>
                     </p>
                 </div>
+                <div className="project-card">
+                    <img src="/images/cart.webp" alt="Project image" className="project-image" />
+                    <h3 className="project-title">Cart-API</h3>
+                    <span className="section-separator center"></span>
+                    <p className="project-description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto quis vitae voluptate corrupti quidem autem repellat, explicabo magni molestias cum.
+                    </p>
+                    <p className="project-technologies">
+                        <div className="technologies">Mongo</div>
+                        <div className="technologies">node</div>
+                    </p>
+                </div>
             </div>
             <div className="project-row">
                 <div className="project-card">
