@@ -32,7 +32,7 @@ header {
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -142,13 +142,11 @@ header {
   height: 500px;
 }
 
-
-
 .project-section .project-row .project-card {
   width: 300px;
   background: #333;
   border-radius: 16px;
-  margin: 0 1rem; 
+  margin: 0 3rem; 
   box-shadow: 0px 0px 3px 3px rgba(var(--primary-color-red), var(--primary-color-green), var(--primary-color-blue), .5);
   padding-bottom: 1.5rem;
 }
@@ -241,8 +239,8 @@ header {
   width: 500px;
   height: 200px;
   border-radius: 5px;
-  margin: 6rem auto 2rem auto;
   border: 1px solid #333;
+  margin: 1rem 0rem 2rem 2rem;
   box-shadow: 0px 0px 2px 2px rgba(var(--primary-color-red), var(--primary-color-green), var(--primary-color-blue), .5);
 }
 
