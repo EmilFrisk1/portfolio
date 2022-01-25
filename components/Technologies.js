@@ -1,6 +1,7 @@
 import React from 'react'
 
 export default function Technologies() {
+  
     return (
         <div id="technologies" className='technologies-section container'>
             <span className="section-separator"></span>

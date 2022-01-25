@@ -1,11 +1,10 @@
 import React from 'react'
 
-
 export default function Projects() {
     return (
         <div id="projects" className='project-section container'>
             <span className="section-separator"></span>
-            <h1 className="section-header">Projects</h1>
+            <h1 className="section-header test">Projects</h1>
             <div className="project-row">
                 <a href="https://youtube-homepage-clone.herokuapp.com/home" target="_blank" rel="noreferrer">
                     <div className="project-card">
