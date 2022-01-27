@@ -12,7 +12,7 @@ export default function Projects() {
                         <h3 className="project-title">Homepage</h3>
                         <span className="section-separator center"></span>
                         <p className="project-description">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto quis vitae voluptate corrupti quidem autem repellat, explicabo magni molestias cum.
+                        This project is made with CSS and vanlilla Javascript. It has tooltips, dark and lightmode and some hover effects. 
                         </p>
                         <p className="project-technologies">
                             <div className="technologies">css</div>
@@ -26,7 +26,7 @@ export default function Projects() {
                         <h3 className="project-title">Cart-API</h3>
                         <span className="section-separator center"></span>
                         <p className="project-description">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto quis vitae voluptate corrupti quidem autem repellat, explicabo magni molestias cum.
+                            This API allows you to create a cart, add items to the cart, change the quantity of items in the cart and remove an item from the cart.
                         </p>
                         <p className="project-technologies">
                             <div className="technologies">Mongo</div>
@@ -42,7 +42,7 @@ export default function Projects() {
                         <h3 className="project-title">E-Commerce</h3>
                         <span className="section-separator center"></span>
                         <p className="project-description">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis quis delectus rerum odit aliquid ipsum! Provident voluptas et nostrum nulla?
+                            This project is full MERN stack project. It uses webhooks, sends emails to a customer and CSS supports phones.
                         </p>
                         <p className="project-technologies">
                             <div className="technologies-row">
@@ -62,7 +62,7 @@ export default function Projects() {
                         <h3 className="project-title">Gaming Forum</h3>
                         <span className="section-separator center"></span>
                         <p className="project-description">
-                            Lore ipsum dolor sit, amet consectetur adipisicing elit. Officia exercitationem sit molestias sequi officiis. Animi fugiat minima eum atque in.
+                            This project has custom authentication system that uses JWT, custom error handling on the server and sorting options for the posts.
                         </p>
                         <p className="project-technologies">
                             <div className="technologies-row">

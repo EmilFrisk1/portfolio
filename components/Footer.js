@@ -6,7 +6,7 @@ export default function Footer() {
             <div className="container">
                 <div className="contact-phone">
                     <p className='footer-title'>Phone number</p>
-                    <p className='footer-title'>15235 325 1235</p>
+                    <p className='footer-title'>+358-40 2578125</p>
                 </div>
                 <div className="contact-email">
                     <p className='footer-title'>Email</p>
