@@ -62,7 +62,7 @@ export default function Projects() {
         >
           <div className="project-card">
             <img
-              src="job_listings_bg.png"
+              src="/images/job_listings_bg.png"
               alt="Project image"
               className="project-image"
             />
