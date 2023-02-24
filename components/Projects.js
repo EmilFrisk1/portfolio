@@ -62,7 +62,7 @@ export default function Projects() {
         >
           <div className="project-card">
             <img
-              src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Flisting_411771&psig=AOvVaw1QmXntJKLfC1soBlOT3QNO&ust=1677332916338000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKCywpamrv0CFQAAAAAdAAAAABAE"
+              src="job_listings_bg.png"
               alt="Project image"
               className="project-image"
             />
